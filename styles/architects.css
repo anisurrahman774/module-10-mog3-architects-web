@@ -127,9 +127,47 @@
 
 /* section end */
 
+/* 2nd section start */
+.Features-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    margin-top: 75px;
+    gap: 54px;
+
+}
+.Features-dev{
+    gap: 30px;
+    
+}
+.features-description-container-01{
+    gap: 30px;
+    margin: 20px;
+}
+
+#features-title{
+    border-left: 5px solid #FF900E;
+    font-size: 2.8rem;
+    padding: 20px;
+
+}
+.features-description-container{
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    width: 586;
+    border-radius: 8px;
+    box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.features-description-title{
+    font-size: 1.25rem;
+}
+
+
 
 /* responsive media query for header  start*/
-
+/* header start */
 @media screen and (max-width: 576px){
     .navbar,
     .nav-link{
@@ -150,6 +188,7 @@
     
     
 }
+/* header end */
 
 /* responsive media query for header end */
 
