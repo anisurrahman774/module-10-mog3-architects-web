@@ -210,6 +210,33 @@
    color: rgba(114, 114, 114, 1);
    
 }
+/* end 3 */
+
+/* start4 */
+.Sponspors-container{
+    
+    text-align: center;
+   margin: 20px;
+   margin-bottom: 50px;
+}
+
+.Sponspors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   
+}
+.Sponspors img{
+    filter: grayscale(100%);
+}
+.sponspors-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 75px;
+    gap: 54px;
+    margin-bottom: 50px;
+}
+
 
 /* responsive media query for header  start*/
 /* header start */
@@ -288,5 +315,19 @@
     
 }
 /* end 3 */
+
+
+/* section -04 start */
+
+
+@media screen and (max-width: 576px){
+   
+    .Sponspors{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        justify-items: center;
+    }
+    
+}
 
 
