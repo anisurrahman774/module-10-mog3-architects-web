@@ -109,8 +109,14 @@
     .primary-button{
         font-size: 1rem;
     }
+    .nav-link{
+        align-items: center;
+    }
+    
     
 }
+
+/* responsive media query for header */
 
 
 
