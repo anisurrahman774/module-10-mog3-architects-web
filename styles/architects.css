@@ -88,8 +88,30 @@
 }
 .banner-img{
    width: 100%;
+   border-radius: 5px;
 }
 /* banner end*/
+/* header end */
+
+/* responsive media query for header */
+
+@media screen and (max-width: 576px){
+    .navbar,
+    .nav-link{
+        flex-direction: column;
+    }
+    .nav-link{
+        gap: 5px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .primary-button{
+        font-size: 1rem;
+    }
+    
+}
+
 
 
 
