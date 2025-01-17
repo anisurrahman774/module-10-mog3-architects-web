@@ -257,10 +257,10 @@
         flex-direction: column;
     }
 }
-/* section 02 end */
+/* section 01 end */
 
 
-/* section 3  start*/
+/* section 2  start*/
 @media screen and (max-width: 576px){
     .Features-container{
         flex-direction: column;
@@ -270,8 +270,23 @@
     }
     
 }
-/* section 3 end*/
+/* section 2 end*/
 
+/* section 3 fact */
 
+@media screen and (max-width: 576px){
+    .fact-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .fact-title{
+        text-align: center;
+        font-size: 2.5rem;
+        
+    }
+    
+    
+}
+/* end 3 */
 
 
