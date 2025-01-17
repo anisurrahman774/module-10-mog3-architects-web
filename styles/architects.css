@@ -132,7 +132,6 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
-    
     margin-top: 75px;
     gap: 54px;
 
@@ -171,8 +170,46 @@
     font-size: 4rem;
    
 }
+/* 2nd section end */
 
+/* 3rd section start */
+.fact-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 75px;
+    gap: 54px;
+}
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    
+}
 
+.fact-title{
+  font-size: 3rem;  
+}
+.fact{
+    
+    padding: 40px;
+   width: 240px;
+   height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+
+}
+.fact-number{
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-namn{
+   color: rgba(114, 114, 114, 1);
+   
+}
 
 /* responsive media query for header  start*/
 /* header start */
