@@ -163,6 +163,14 @@
 .features-description-title{
     font-size: 1.25rem;
 }
+#Experience-badges{
+    margin-top: -100px;
+    margin-left: -60px;
+}
+#Experience-year{
+    font-size: 4rem;
+   
+}
 
 
 
@@ -213,6 +221,19 @@
     }
 }
 /* section 02 end */
+
+
+/* section 3  start*/
+@media screen and (max-width: 576px){
+    .Features-container{
+        flex-direction: column;
+    }
+    .Features-image img{
+        width: 100%;
+    }
+    
+}
+/* section 3 end*/
 
 
 
